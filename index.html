@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+       <div id="header">
+              <h2>
+                     Vaccine
+              </h2>
+
+       </div>
+       
+<div id="districts">
+       <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+              <button type="button" class="btn btn-danger" value=297 onclick="district(value)">Kannur</button>
+              <button type="button" class="btn btn-warning" value=305 onclick="district(value)">Calicut</button>
+              <button type="button" class="btn btn-success"  value=295 onclick="district(value)">Kasargod</button>
+              <button type="button" class="btn btn-primary"  value=311 onclick="district(value)">Laskwadeep</button>
+              
+            </div>
+</div>
+<br>
+<div id="date">
+
+       
+              <button type="button" class="btn btn-primary" id="plus"  onclick="changeDate()">+</button>
+              <button type="button" class="btn btn-success" id="minus"  onclick="decrementDate()">-</button>
+              <input class="form-control" type="text"  aria-label="readonly input example" readonly  id="dates">
+                    
+       
+       
+</div>
+<div style="padding-left: 50%;">
+       <table id="result3" >
+              <tr>
+                     <th>
+                             Age 
+                     </th>
+                     
+                     <th>
+                            Name
+                     </th>
+                     <th id='place'>
+
+                     </th>
+              </tr>
+   
+              
+   
+   
+       </table>   
+   </div>
+   <div id="result" >
+
+</div>
+
+<script src="script.js"></script>
+
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+</body>
+</html>

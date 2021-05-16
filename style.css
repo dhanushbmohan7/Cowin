@@ -1,0 +1,46 @@
+body { background-color:black;
+            
+              
+}
+#districts{
+       padding-top: 3%;
+       padding-left: 45%;
+       opacity:0.9;
+       
+
+}
+#header{
+       padding-left: 50%;
+}
+h2{ 
+font-style: italic;
+font-weight: bold;
+color:aliceblue;
+font-size: xx-large;              }
+
+#date{
+       margin-left: 50%;
+       width: 50px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#plus{
+       width: 50px;
+
+}
+#minus{
+       width: 50px;
+
+}
+
+#centers{
+       padding-left: 45%;
+       color: aqua;
+}
+#result3{
+       color: aliceblue;
+
+}
+#result{
+       padding-left:50%;
+       color: white;
+}
